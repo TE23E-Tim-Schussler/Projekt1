@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20vh 80vh;
+    background-color: #E2D8AF;
+}
+#main{
+    background-color: white;
+}
+#sidebar{
+    text-align: center;
+    display:flex;
+    
+}
