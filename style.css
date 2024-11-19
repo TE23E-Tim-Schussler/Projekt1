@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 20vh 80vh;
+    grid-template-rows: 20vh 100vh;
     background-color: #E2D8AF;
         font-family: "Just Me Again Down Here", cursive;
 }
@@ -27,7 +27,7 @@ h1{
 #main{
     display:grid;
     grid-template-columns: 3fr 3fr;
-    grid-template-rows:50vh 50vh;
+    grid-template-rows:60vh 50vh;
     text-align:center;
     margin:10px;
     padding:10px;
@@ -48,5 +48,6 @@ h2{
 
 }
 p{
-    font-size:30px;
+    font-size:20px;
+    margin:0px;
 }
