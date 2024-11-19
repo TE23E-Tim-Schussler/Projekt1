@@ -3,6 +3,7 @@ body{
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 20vh 80vh;
     background-color: #E2D8AF;
+        font-family: "Just Me Again Down Here", cursive;
 }
 #main{
     background-color: white;
@@ -11,4 +12,41 @@ body{
     text-align: center;
     display:flex;
     
+}
+h1{
+
+        font-family: "Irish Grover", system-ui;
+        font-weight: 500;
+        font-style: normal;
+        font-size:50px;
+        margin:0;
+}
+.länk{
+    margin-top:50px;
+}
+#main{
+    display:grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows:50vh 50vh;
+    text-align:center;
+    margin:10px;
+    padding:10px;
+}
+.bild{
+    width:452px;
+    height:161px;
+}
+h3{
+    font-size:60px;
+    margin-bottom:20px;
+}
+h2{
+    font-size:40px;
+}
+#sidebar{
+    display:grid;
+
+}
+p{
+    font-size:30px;
 }
